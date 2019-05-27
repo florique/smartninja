@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 50px;
+
+}
+
+h2 {
+    color: rgb(0, 0, 255);
+}
+
+div {
+    border-style: dotted;
+    height: auto;
+    width: auto;
+    margin-right: 510px;
+    margin-left: 510px;
+}
+
+#city {
+    color: rgb(255, 0, 0);
+}
+

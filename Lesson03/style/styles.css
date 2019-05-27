@@ -1,0 +1,53 @@
+.box {
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+.inline-text {
+    display:inline;
+}
+
+#container2 {
+    margin: 200px 0px 0px 50px;
+}
+
+#box_1 {
+    background-color: rgb(0, 0, 255);
+    margin: 50px;
+}
+
+#box_2 {
+    background-color: rgb(0, 255, 0);
+    padding: 0px auto;  /*zentrieren von Elementen*/
+}
+
+#box_3 {
+    background-color: rgb(255, 0, 0);
+    border: 3px solid black;
+}
+
+#box_4 {
+    background-color: rgb(0, 0, 255);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    z-index: 10;
+}
+
+/*Position fixed hilft mir etwas in der Seite zu fixieren (z.B. bei Headlines)*/
+
+#box_5 {
+    position: relative;
+    background-color: rgb(0, 255, 0);
+
+}
+
+/* jetztige Position relativ zu ihrer vorherigen Position - mit relativ sehr vorsichtig umgehen */
+
+#box_6 {
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    top: 400px;
+    left 300px;
+}
